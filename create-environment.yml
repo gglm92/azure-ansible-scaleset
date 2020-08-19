@@ -1,6 +1,7 @@
 - name: Create environment to deploy an load balancer and VMs from scratch
   hosts: localhost
   gather_facts: false
+  connection: local
   
   vars:
     resource_group: myResourceGroup

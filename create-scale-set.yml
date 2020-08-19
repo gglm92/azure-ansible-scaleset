@@ -1,6 +1,7 @@
 - name: Deploy an load balancer and auto scale
   hosts: localhost
   gather_facts: false
+  connection: local
   
   vars:
     resource_group: myResourceGroup
